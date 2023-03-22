@@ -8981,7 +8981,8 @@ textarea.form-control {
   letter-spacing: 3px; }
 
 .ftco-section {
-  padding: 7em 0; }
+/*  padding: 7em 0; }*/
+  padding: 4em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
