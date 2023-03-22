@@ -8982,7 +8982,7 @@ textarea.form-control {
 
 .ftco-section {
 /*  padding: 7em 0; }*/
-  padding: 4em 0; }
+padding: 6em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -9769,7 +9769,7 @@ textarea.form-control {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  background-color: #fff;
+  background-color: #191a1c;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none; }
