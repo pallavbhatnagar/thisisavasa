@@ -9858,3 +9858,8 @@ justify-content: center;
 }
 
 }
+
+.privacyPolicy .sc-background-light
+{
+  display:none!important;
+}
