@@ -50,8 +50,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
-zoom: 92% !important;
--moz-transform: scale(0.92);
+zoom: 90% !important;
+-moz-transform: scale(0.90);
   overflow-x: hidden;
   position: relative;
   z-index: 1;
