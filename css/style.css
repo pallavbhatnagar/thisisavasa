@@ -50,7 +50,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
-zoom: 94% !important;
+zoom: 92% !important;
  
 
 
@@ -9069,8 +9069,8 @@ padding: 6em 0; }
   margin: 0 10px 0 0;
   display: inline-block; }
   .ftco-footer-social li a {
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     display: block;
     float: left;
     background: rgba(255, 255, 255, 0.05);
@@ -9837,3 +9837,17 @@ padding: 6em 0; }
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media only screen and (max-width: 1024px) {
+.centre_align_mq {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centre_align_mq_footer {
+display: flex;
+justify-content: center;
+}
+
+}
