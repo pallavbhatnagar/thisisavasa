@@ -50,8 +50,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
-zoom: 80% !important;
--moz-transform: scale(0.80);
+  zoom: 80% !important;
+  -moz-transform: scale(0.80);
   overflow-x: hidden;
   position: relative;
   z-index: 1;
@@ -9845,7 +9845,8 @@ padding: 6em 0; }
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) 
+{
 .centre_align_mq {
   display: block;
   margin-left: auto;
@@ -9853,9 +9854,8 @@ padding: 6em 0; }
   width: 50%;
 }
 .centre_align_mq_footer {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 }
 
