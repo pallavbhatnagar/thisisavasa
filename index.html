@@ -89,7 +89,7 @@
               <br>
               <!-- Footer Section -->
               <div class="d-flex w-100">
-                <iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1589234278&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_playcount=false&amp;visual=true"></iframe>
+                <iframe id="player_height" width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1589234278&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_playcount=false&amp;visual=true"></iframe>
               </div>
               <br>
               <div style="margin-top: 5px;" class="centre_align_mq_footer">
@@ -125,6 +125,18 @@
       </svg>
     </div>
     <!-- Scripts -->
+    <!-- Soundcloud Widget Height -->
+    <script type="text/javascript">
+    (function iframeLoaded() {
+        var iFrameID = document.getElementById('player_height');
+        if(iFrameID) {
+              // here you can make the height, I delete it first, then I make it again
+              iFrameID.height = "450px";
+              if (window.innerWidth<1024)
+              iFrameID.height = 600 + "px";
+        } 
+    })()
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/popper.min.js"></script>
